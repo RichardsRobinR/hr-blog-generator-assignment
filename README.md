@@ -40,7 +40,7 @@ requests>=2.31.0
 python-dotenv>=1.0.0
 ```
 
-##Output
+## Output
 Output is saved as blog_post.md
 
 ## Setup
