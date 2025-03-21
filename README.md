@@ -4,7 +4,8 @@
 An AI-powered system that generates SEO-optimized HR blog content using Gemini AI and specialized agents.
 
 ## Architecture
-![Untitled Diagram drawio](https://github.com/user-attachments/assets/c69a18a2-b006-49fe-ad5e-ad009184d0c3)
+![Untitled Diagram drawio (1)](https://github.com/user-attachments/assets/3acc233d-a4e4-4103-9e47-913438d12f0b)
+
 
 
 ### Core Components
