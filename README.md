@@ -6,7 +6,8 @@ An AI-powered system that generates SEO-optimized HR blog content using Gemini A
 ## Architecture
 ![image](https://github.com/user-attachments/assets/80bd384f-b8e1-40bf-b7d8-a27ac0587e54)
 
-
+## Output
+Output is saved as blog_post.md
 
 
 ### Core Components
@@ -39,9 +40,6 @@ google-generativeai>=0.3.0
 requests>=2.31.0
 python-dotenv>=1.0.0
 ```
-
-## Output
-Output is saved as blog_post.md
 
 ## Setup
 
