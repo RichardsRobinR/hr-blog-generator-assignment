@@ -4,6 +4,8 @@
 An AI-powered system that generates SEO-optimized HR blog content using Gemini AI and specialized agents.
 
 ## Architecture
+![Untitled Diagram drawio](https://github.com/user-attachments/assets/c69a18a2-b006-49fe-ad5e-ad009184d0c3)
+
 
 ### Core Components
 - 🤖 **Base Agent**
@@ -48,7 +50,7 @@ python-dotenv>=1.0.0
 
 1. Clone repository:
 ```bash
-git clone 
+git clone https://github.com/RichardsRobinR/hr-blog-generator-assignment/
 cd hr-blog-generator-assignment
 ```
 
