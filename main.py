@@ -8,7 +8,7 @@ import requests
 
 class GeminiAgent:
     def __init__(self, model_name="gemini-1.5-flash", temperature=0.7):
-        self.client = genai.Client(api_key="AIzaSyDVC0r3225IQ4Kk3SUU8P9cBK1KmfqoYQw")
+        self.client = genai.Client(api_key=GOOGLE_API)
         self.model_name = model_name
         self.default_config = types.GenerateContentConfig(
             temperature=temperature,
@@ -41,7 +41,7 @@ class ResearchAgent(GeminiAgent):
         params = {
             "q": "(HR OR 'human resources') AND (trends OR innovation OR workplace)",
             "sortBy": "relevancy",
-            "apiKey": "4a1a276177544069a3f7d8937aa1301f",
+            "apiKey": NEWS_API,
             "pageSize": 5,
             "language": "en"
         }
